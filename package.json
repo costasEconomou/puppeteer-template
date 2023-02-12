@@ -11,5 +11,8 @@
     "[]"
   ],
   "author": "Costas Economou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.6.3"
+  }
 }
