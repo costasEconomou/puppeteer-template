@@ -1,0 +1,15 @@
+{
+  "name": "doc-gen",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A node module for generating pdf documents from markdown files and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Costas Economou",
+  "license": "MIT"
+}
