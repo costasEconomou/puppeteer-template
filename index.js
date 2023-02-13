@@ -2,6 +2,12 @@ import fs from 'fs';
 import puppeteer from 'puppeteer';
 import { fileServe } from './src/js/server.js'
 
+// Prepare output paths
+const outPath = 'out';
+if (fs.existsSync(outPath)) {
+  await fs.promises.rm(outPath, { recursive: true });
+}
+await fs.promises.mkdir(outPath);
 
 async function run() {
   fileServe('template.html', './src/', 8000);
