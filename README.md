@@ -1,6 +1,6 @@
-# PFD Document Generation with Node.js, CSS and Markdown files
+# Template Puppeteer Node environment
 
-Automatically generate beautiful PDF documents from Markdown files and CSS, along with the Puppeteer.
+A node environemnt with Puppeteer to be used for generating screenshots and pdfs from HTML documents. Includes a simple server to statically server files.
 
 ## Installation
 
