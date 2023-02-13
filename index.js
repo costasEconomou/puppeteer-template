@@ -20,6 +20,8 @@ async function run() {
   const html = await page.content();
   fs.writeFileSync("./out/index.html", html);
 
+  await page.setViewport({width: 500, height: 300});
+  //await page.screenshot({path: './out/screenshot1.png', encoding: 'base64', type: 'png'});
   //await page.pdf({path: './out/index.html', format: 'A4'});
 
   await browser.close()
