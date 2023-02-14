@@ -1,6 +1,6 @@
 # Template Puppeteer Node environment
 
-A node environemnt with Puppeteer to be used for generating screenshots and pdfs from HTML documents. Includes a simple server to statically server files.
+A node environemnt with Puppeteer which includes a simple server to statically serve files. Can be used for generating screenshots and pdfs from HTML documents. 
 
 ## Installation
 
