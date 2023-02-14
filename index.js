@@ -13,7 +13,7 @@ if (fs.existsSync(outPath)) {
 }
 await fs.promises.mkdir(outPath);
 
-async function run() {
+(async () => {
   // Start server
   fileServe(`${fileName}`, './src/', `${portNum}`);
 
@@ -31,7 +31,4 @@ async function run() {
   // Exit process
   await browser.close()
   process.exit()
-}
-
-run();
-
+})();
